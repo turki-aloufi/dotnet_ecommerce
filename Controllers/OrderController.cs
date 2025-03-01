@@ -92,10 +92,11 @@ namespace ECommerceProject.Controllers
       Console.WriteLine(data.orderDetails[0].OrderDetailId + " " + data.orderDetails[0].OrderId);
       return RedirectToAction("cart");
     }
-    public IActionResult OrdersHistory()
+    
+    
+    [HttpGet("Orders/{userId}")]
+    public IActionResult OrdersHistory(int userId)
     {
-      var userId = data.user.UserId;
-
       var userOrders = data.orders
           .Where(o => o.UserId == userId)
           .Select(o => new OrderViewModel
@@ -114,7 +115,5 @@ namespace ECommerceProject.Controllers
 
       return View(userOrders);
     }
-
-
   }
 }
