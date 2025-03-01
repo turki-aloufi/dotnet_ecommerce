@@ -28,3 +28,4 @@ C:\Users\turki\OneDrive\سطح المكتب\dev training program\week2\ECommerce
 C:\Users\turki\OneDrive\سطح المكتب\dev training program\week2\ECommerceProject\obj\Debug\net8.0\ECommerceProject.pdb
 C:\Users\turki\OneDrive\سطح المكتب\dev training program\week2\ECommerceProject\obj\Debug\net8.0\ECommerceProject.genruntimeconfig.cache
 C:\Users\turki\OneDrive\سطح المكتب\dev training program\week2\ECommerceProject\obj\Debug\net8.0\ref\ECommerceProject.dll
+C:\Users\turki\OneDrive\سطح المكتب\dev training program\week2\ECommerceProject\obj\Debug\net8.0\ECommerceProject.sourcelink.json
